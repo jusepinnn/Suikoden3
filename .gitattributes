@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+SUIKODEN 3 USA** filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pss filter=lfs diff=lfs merge=lfs -text
